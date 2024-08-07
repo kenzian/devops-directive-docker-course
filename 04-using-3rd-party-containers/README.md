@@ -188,7 +188,7 @@ docker run -it --rm -v pgdata:/var/lib/postgresql/data -e POSTGRES_PASSWORD=foob
 
 #### ii. Bind Mounts
 
-Alternatively, we can mount a directory from the host system using a bind mount:
+Alternatively, we can mount a directory from the host system using a bind mount (use %cd% instead of "${PWD}" for windows command line):
 
 ```bash
 # Create a container that mounts a directory from the host filesystem into the container
